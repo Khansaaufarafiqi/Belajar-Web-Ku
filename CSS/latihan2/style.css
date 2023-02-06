@@ -1,0 +1,15 @@
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(84, 180, 148);
+    font-size: 80px;
+    font-variant: small-caps;
+    line-height: 50px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(111, 111, 230);
+    font-style: italic;
+    line-height: 50px;
+    font-weight: ;
+}
+

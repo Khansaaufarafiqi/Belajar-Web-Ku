@@ -1,4 +1,15 @@
 h2{
     font-family:tahoma;
     color: red;
+    background-color: antiquewhite;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+p{
+    font-family: courier;
+    font-style:italic ;
+    color: blue;
+    font-variant:normal;
+    
 }
