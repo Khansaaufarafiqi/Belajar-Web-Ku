@@ -5,8 +5,6 @@ h2{
     font-variant: small-caps;
     line-height: 50px;
     text-align: center;
-    text-indent: ;
-    text-decoration:;
     border: 5px solid tomato;
     text-transform: uppercase;
     
@@ -18,7 +16,6 @@ p{
     font-style: italic;
     line-height: 50px;
     font-weight:700;
-    text-align: ;
     word-spacing: 5px;
     background-color: aqua;
     border-color: black;
@@ -28,8 +25,7 @@ p{
 
     
 }
-b{
-   text-decoration: ; 
+b{ 
    text-transform:capitalize;
    letter-spacing: 2px;
    
