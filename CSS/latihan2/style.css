@@ -1,15 +1,41 @@
 h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(84, 180, 148);
-    font-size: 80px;
+    font-size: 50px;
     font-variant: small-caps;
     line-height: 50px;
+    text-align: center;
+    text-indent: ;
+    text-decoration:;
+    border: 5px solid tomato;
+    text-transform: uppercase;
+    
+    
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(111, 111, 230);
     font-style: italic;
     line-height: 50px;
-    font-weight: ;
+    font-weight:700;
+    text-align: ;
+    word-spacing: 5px;
+    background-color: aqua;
+    border-color: black;
+    text-indent: 20%;
+    
+    
+
+    
+}
+b{
+   text-decoration: ; 
+   text-transform:capitalize;
+   letter-spacing: 2px;
+   
+}
+a{
+
+    text-decoration: none;
 }
 
