@@ -1,4 +1,4 @@
-h2{
+h2, h5, p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(84, 180, 148);
     font-size: 50px;
@@ -10,21 +10,7 @@ h2{
     
     
 }
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(111, 111, 230);
-    font-style: italic;
-    line-height: 50px;
-    font-weight:700;
-    word-spacing: 5px;
-    background-color: aqua;
-    border-color: black;
-    text-indent: 20%;
-    
-    
 
-    
-}
 b{ 
    text-transform:capitalize;
    letter-spacing: 2px;

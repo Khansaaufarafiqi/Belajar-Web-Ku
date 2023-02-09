@@ -3,5 +3,39 @@ body{
     background: rgb(207, 65, 65) url(../../picture/ea.jpg) top center no-repeat;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: capitalize;
+    background-position: top right ;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: blue;
+    
+
+    
+    
+    
+}
+h4{
+    color: gold;
+    text-decoration: underline;
+}
+a{
+    text-decoration:none;
+}
+p{
+    text-decoration:dashed;
+    text-decoration: overline;
+}
+ 
+.p1{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+   
+}
+.p2 {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+.coba {
+    font-weight: bold ;
     
 }
