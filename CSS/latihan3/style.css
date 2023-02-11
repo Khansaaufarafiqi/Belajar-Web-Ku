@@ -28,6 +28,8 @@ p{
 .p1{
     color: rgb(0, 0, 0);
     text-decoration: none;
+    font-family: georgia;
+    font-weight: bold;
    
 }
 .p2 {
@@ -37,5 +39,12 @@ p{
 }
 .coba {
     font-weight: bold ;
+    color: aquamarine;
     
+}
+.p5{
+
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
 }
