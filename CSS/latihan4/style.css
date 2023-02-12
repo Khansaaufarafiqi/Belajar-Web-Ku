@@ -53,10 +53,10 @@
 
 
 .res :nth-child(even) a {
-    color: chartreuse;
+    color: rgb(20, 33, 218);
 }
 .res :nth-child(even) a:hover {
-    color: red;
+    color: rgb(255, 255, 255);
 }
 
     

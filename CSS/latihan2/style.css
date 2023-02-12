@@ -1,6 +1,15 @@
+body{
+    color: aqua;
+    
+}
+
+
+
+
+
 h2, h5, p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(84, 180, 148);
+    
     font-size: 50px;
     font-variant: small-caps;
     line-height: 50px;
@@ -17,7 +26,32 @@ b{
    
 }
 a{
-
     text-decoration: none;
+    color: inherit;
+    
+    
+    
 }
 
+.tes :nth-child(even) a {
+    color: rgb(168, 44, 44);
+}
+
+
+ol#itu li{
+    color: brown;
+}
+ol#itu  li.fur{
+    color: black;
+}
+
+ol.gk li  {
+    color:rgb(182, 2, 206);
+}
+
+#yuk{
+    color: chartreuse;
+}
+#ini{
+    color: rgb(0, 0, 0);
+}
