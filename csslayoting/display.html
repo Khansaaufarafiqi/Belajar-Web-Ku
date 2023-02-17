@@ -4,40 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>display</title>
+    <title>display</title> 
     <style>
         .link a{
-            color: rgb(38, 176, 211);
+            background-color: aquamarine;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            
+            
+            
+        }
+        .link li{
+            display: inline;
         }
         .lorem {
-            color: green;
+            
             background-color: chartreuse;
+            width: 500px;
+            height: 600px;
+            /*width dan hight kegunan dari block jadii jika keta menambahkan width dan height otomatis akan default ke block&*/
+        } 
+        .span3{
+            color: black;
         }
-        .lorem span{
-            color: red;
-        }
-        .lorem .span2{
-            color: blue;
-        }
-        .lorem .span3{
-            color: floralwhite;
-        }
+       
+        
+       
         #yoyo{
             color: blueviolet;
+        }
+       
+        h1{
+            background-color: green;
+            text-transform: capitalize;
         }
     </style>
 </head>
 <body>
         <h1 id="yoyo">display belajar</h1>
         <div class="link">
-            <a href="#">link</a>
-            <a href="#">link</a>
+            <ol>
+                <li><a href="#">link 1</a></li>
+                <li><a href="#">link 2</a></li>
+                <li><a href="#">link 3</a></li>
+                <li><a href="#">link 4</a></li>
+                <li><a href="#">link 5</a></li>
+            </ol>
+            <!--ol>li*5>a[href=#]{tulisannya $}-->
         </div>
         <div class="lorem">
-            <p><span class="span3"> Lorem ipsum </span> <span> dolor sit amet consectetur </span> adipisicing elit. Aliquid cum neque vitae maiores blanditiis. Exercitationem, adipisci, totam porro, facilis quasi aliquid aspernatur nostrum soluta cupiditate deleniti <span class="span2"> nihil dignissimos.</span> Inventore, iure?</p>
-            <p>Lorem ipsum dolor  sit amet consectetur adipisicing elit. Reprehenderit blanditiis natus nam architecto hic quisquam doloribus debitis amet id dicta voluptate quos perspiciatis laborum fugit alias deleniti, in adipisci quia.</p>
-
-
+            <h1>tugas</h1>
+            <h1>tugas</h1>
+            <p><span class="span3"> Lorem ipsum   dolor sit amet consectetur  adipisicing elit. Aliquid cum neque vitae maiores blanditiis. Exercitationem, adipisci, totam porro, facilis quasi aliquid aspernatur nostrum soluta cupiditate deleniti  nihil dignissimos. Inventore, iure?</span></p>
+            
+            <img src="../picture/ea.jpg" alt="">
+            
+            <p><span class="span3"> Lorem ipsum dolor  sit amet consectetur adipisicing elit. Reprehenderit blanditiis natus nam architecto hic quisquam doloribus debitis amet id dicta voluptate quos perspiciatis laborum fugit alias deleniti, in adipisci quia. </span></p>
+            
+            
         </div>
+        
 </body>
 </html>
