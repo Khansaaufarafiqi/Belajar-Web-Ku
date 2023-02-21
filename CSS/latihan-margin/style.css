@@ -1,0 +1,33 @@
+/*margin digunakan untuk mengaplikasikan jarak tepi pada sebuah elemen 
+bagian luar (tepi garis luar). Margin memiliki 4 macam penjabaran yang dapat 
+digunakan secara terpisah sendiri-sendiri, yaitu: margin-top , margin-right , 
+margin-bottom dan margin-left .*/
+
+
+
+
+.one{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 100px auto ;
+
+    
+    
+  
+}
+.two{
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    margin:  100px auto;
+    
+    
+}
+.three{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin: 100px auto;
+    
+}
