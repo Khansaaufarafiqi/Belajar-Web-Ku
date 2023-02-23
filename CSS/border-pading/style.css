@@ -1,20 +1,17 @@
 div{
-    width: 250px;
-    height: 250px;
-    background-color:cyan;
-    margin: 40px auto;
-    text-transform: capitalize;
-    padding: 50px;
-    border-left: 7px double black ; /*ukluran style warna*/
-    border-right:  7px double black ;
-    border-top: 7px dashed black;
-    border-bottom: 7px dashed black;
-    margin-bottom: 60px;
-    
-    
-
+    width: 600px;
+    margin: 30px auto;
+    box-sizing: border-box;
 }
-p{
-    font-weight: bold;
-    font-family: tahoma;
+.satu{
+    
+    background-color: blueviolet;
+    padding: 30px;
+    border: 15px solid black;
+}
+.dua{
+    
+    background-color: cyan;
+    padding: 10px;
+    border: 15px dashed black;
 }
