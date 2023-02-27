@@ -55,16 +55,24 @@
 body{
     background-color: bisque;
     font: 16px/20px tahoma ;
+    background-image: url(../../picture/VENTI\ _\ HEIZOU\ _\ AETHER\ _\ KAZUHA\ _\ XIAO.jpg);
+    
 }
 .container{
     width: 970px;
     margin: auto;
-    background-color: white;
+    background-color: #EDDBC7;
+    border-radius: 20px 20px 20px 20px;
     
 }
 .header{
     padding: 40px;
-    border-top: 5px solid rgb(182, 91,17)
+    border-top: 5px solid rgb(182, 91,17);
+    padding-bottom: 10px;
+    border-radius: 20px 20px 0px 0px;
+    padding-top: 30px;
+    background-image: url(bacaa.jpg);
+    background-position: 0px -170px;
     
 }
 .gambar1{
@@ -74,7 +82,16 @@ body{
 .judul{
     display: inline-block;
     margin-left: 40px;
-    
+}
+#anjai{
+  text-align: left;
+}
+ul  {
+  margin-top: -15px;
+  text-align: center;
+  list-style: none;
+  text-transform: capitalize;
+  
 }
 .header ul li {
     display: inline-block;
@@ -87,7 +104,7 @@ body{
     padding: 5px;
 }
 .header a:hover{
-    background-color: rgb(80, 7, 7);
+    background-color: rgb(255, 255, 255);
     color: chartreuse;
 }
 .heros {
@@ -95,5 +112,62 @@ body{
     background-image: url(ya.jpg);
     background-color: rgb(223, 9, 9);
     background-position: -70px 0;
-    border-top: 10px solid rgb(182, 91, 17);
+    border-top: 8.5px solid rgb(182, 91, 17);
+    border-bottom: 8.5px solid rgb(182, 91, 17);
+}
+.pembuat{
+  font-size: small;
+  
+  margin-top: 40px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.pembuat a {
+  text-decoration: none;
+  color: grey;
+  
+
+}
+.pembuat a:hover{
+  color: rgb(71, 148, 184);
+}
+
+.conten{
+ padding: 20px;
+ 
+}
+
+h2{
+  font-size: 32px ;
+  padding-bottom: 5px;
+}
+.gambar2{
+  width: 300px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.isi{
+  margin-top: 70px;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.isi2{
+  font-family: 10px  sans-serif;
+  font-size:larger;
+  font-weight: bolder;
+  line-height: 40px;
+
+}
+.footer{
+  
+  background-color: black;
+  
+  padding: 30px;
+  border-radius: 0px 0px 20px 20px;
+}
+.footer .copy{
+  color: white;
+  text-align: center;
 }
