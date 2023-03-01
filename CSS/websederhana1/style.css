@@ -85,13 +85,19 @@ body{
 #anjai{
   text-align: left;
 }
-ul  {
+.container .header .anjay { 
   margin-top: -15px;
   text-align: center;
   list-style: none;
   text-transform: capitalize;
   
+
 }
+.conten .pembuat .biasa {
+  list-style: none;
+  text-decoration: none;
+}
+
 .header ul li {
     display: inline-block;
     margin-top: 40px;
