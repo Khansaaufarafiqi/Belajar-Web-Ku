@@ -1,15 +1,19 @@
 div{
-    width: 200px;
-    height: 200px;
+    color: white;
 }
-.satu{
-    background-color: blue;
+.container{
+    width: 600px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 8px;
+
 }
-.dua{
-    background-color: blueviolet;
+img{
     float: left;
-    margin-left: 20px;
+    margin: 20px;
+    
 }
-.tiga{
-    background-color: brown;
+    
+p{
+    color: black;
 }
