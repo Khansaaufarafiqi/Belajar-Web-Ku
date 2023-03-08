@@ -5,7 +5,7 @@ div{
     width: 600px;
     border: 2px solid black;
     margin: auto;
-    padding: 8px;
+    padding: 3px;
 
 }
 img{
@@ -16,4 +16,7 @@ img{
     
 p{
     color: black;
+}
+.clear{
+    clear: left;
 }
