@@ -56,6 +56,7 @@
     background-color: cyan;
     font: 16px/28px arial, tahoma;
     background-image: url(VENTI\ _\ HEIZOU\ _\ AETHER\ _\ KAZUHA\ _\ XIAO.jpg);
+    
   }
   .header{
     padding: 30px 30px 0px 30px;
@@ -98,10 +99,6 @@
     
     
   }
-  
-  
-  
-  
   .main .contak2{
     list-style: none;
     text-align: center;
@@ -125,8 +122,6 @@
     border-right: 10px solid black;
     margin: 0px;
     font-weight: bold;
-
-    
   }
   .main .isinya{
     margin: 40px;
@@ -136,10 +131,10 @@
     border-left: 10px dashed black;
     border-right: 10px solid black;
     width: 600px;
-    box-sizing: border-box;
+    box-sizing: border-box;  
+  }
+  .isinya{
     float: left;
-   
-    
   }
   .footer{
     background-color: black;
@@ -149,7 +144,6 @@
   .copy{
     text-align: center;
     color: white;
-    
   }
   .gambar{
     width: 200px;
