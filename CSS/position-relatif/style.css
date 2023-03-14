@@ -1,17 +1,25 @@
 div{
     width: 200px;
     height: 200px;
+    margin: auto;
 }
 .satu{
     background-color: lightgreen;
 }
 .dua{
     background-color: gold;
-    position: relative;
-    margin-top: 10px;
-    top: 40px;
-    left: 30px;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    
 }
 .tiga{
     background-color: violet;
+}
+.container{
+    border:10px solid red;
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    position: relative;
 }
