@@ -1,0 +1,33 @@
+body{
+    text-transform:capitalize ;
+    height: 2000px;
+}
+
+.tes{
+    position: fixed;
+    left: 100px;
+    top: 100px;
+    right: 100px;
+    bottom: 100px;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 60px 0px 60px 60px;
+
+}
+.kembali{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    line-height: 20px;
+    font-size: 10px;
+    font-weight:bold;
+}
+
+h1{
+    margin: 70px;
+}
