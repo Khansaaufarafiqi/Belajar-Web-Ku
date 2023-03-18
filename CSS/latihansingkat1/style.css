@@ -1,0 +1,57 @@
+.kotak1, .kotak2, .kotak3{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+body{
+    height: 1000px;
+}
+.top-bar{
+    height: 50px;
+    width: 100%;
+    background-color: cyan;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    
+}
+.kotak1{
+    background-color: rgb(224, 114, 114);
+}
+.kotak2{
+    background-color: rgb(170, 170, 0);
+   
+}
+.kotak3{
+    background-color: rgb(30, 80, 30);
+}
+.container{
+    width: 450px;
+    height: 450px;
+    border: 15px solid black;
+    margin: auto;
+    position: relative;
+    margin: 200px auto;
+}
+.nc{
+    background-color:   rgba(0,0,0,0.6 );
+    position: fixed;
+    top: 100px;
+    bottom: 100px;
+    left: 100px;
+    right: 100px;
+    z-index: 999999;
+}
+.silang{
+    background-color: rgb(247, 4, 4);
+    width: 30px;
+    height: 30px;
+    
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
