@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Kaushan Script;
+    src: url(KaushanScript-Regular.otf) format(OpenType);
+}
+
+h1{
+    font-size: 300px;
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+}
+h2{
+    font-size: 200px;
+    text-align: center;
+    font-family: Kaushan Script ;
+}
