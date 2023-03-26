@@ -3,7 +3,9 @@
     height: 300px;
     background-color: rgba(255, 215, 0,.5);
     margin: 70px auto;
-    /*X , Y ,blur ,ukuran*/
+    /*X , Y ,blur ,ukuran .
+    kegunaan inset adalah untuk menaruh bayangan di dalam objek/box
+    kegunaan spread adalah untuk mengatur size bayangan*/ 
     box-shadow: 45px 45px 20px -10px rgba(0, 0, 0,.7),
     -45px -45px 20px -20px rgba(0, 0, 0,.7);
     border-radius: 20px;
