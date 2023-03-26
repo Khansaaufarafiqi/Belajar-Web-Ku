@@ -1,0 +1,12 @@
+.lineargradients{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background: linear-gradient(to bottom right ,blue 10%,cyan 82%);
+}
+.radialgradients{
+    width: 600px;
+    height: 300px;
+    margin: 120px auto;
+    background: radial-gradient(circle farthest-side at top left ,rgb(0, 255, 13) 20%,rgb(0, 68, 255) 40%, rgb(255, 255, 61) 78%);
+}
