@@ -27,6 +27,7 @@ transform::
     scale
     rotate
     skew
+    translate
 */
 .kotak:hover{
     transform: translate(200px);

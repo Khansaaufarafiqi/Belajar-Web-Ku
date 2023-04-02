@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.kotak{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    display: inline-block;
+    transition: 1s;
+    margin-right: 100px;
+    display: inline-block;
+    
+    
+}
+.tes2:hover .kotak2{
+    transform:rotate(180deg);
+    margin-top: 500px;
+
+}
+
+.tes:hover .kotak{
+    transform:rotate(850deg);
+    margin-left: 500px;
+    background-color: chocolate;
+    box-shadow: 0 0 30px 5px black;
+
+}
+.tes{
+  margin: 10px auto;
+}
+.kotak2{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    display: inline-block;
+    transition: 1s;
+    margin-right: 100px;
+    display: inline-block;
+}
