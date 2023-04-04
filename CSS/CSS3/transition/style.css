@@ -14,6 +14,7 @@ body{
 .kotak1{
     transition: all 2s ease;
     text-align: center;
+ 
     line-height: 200px;
 }
 .kotak2{
