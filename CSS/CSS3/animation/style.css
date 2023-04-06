@@ -1,0 +1,27 @@
+.kotak{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    border-radius: 20px;
+    animation: anime 3s cubic-bezier(0.7, 0.28, 1, 0.49) 3 alternae forwards ;
+    text-align: center;
+    line-height: 200px;
+    /*
+    iteration-count : bisa mengunakan angka ,juga INFINITE
+    direction : normal, reverse , alternate, alternate-reverse
+    */
+    
+}
+
+@keyframes anime{
+    25%{
+        width: 300px;
+    }
+    50%{
+        height: 300px;
+    }
+    100%{
+        width: 600px;
+        height: 600px;
+    }
+}

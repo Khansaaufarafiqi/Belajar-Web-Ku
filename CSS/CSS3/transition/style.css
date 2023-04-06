@@ -39,7 +39,8 @@ body{
 
 }
 .kotak6{
-    transition: cubic-bezier(0.92,-0.02, 0.85, 1.07);
+
+    transition: cubic-bezier(0.7, 0.28, 1, 0.49) 1s;
 }
 .container:hover .kotak{
     margin-left: 700px;
