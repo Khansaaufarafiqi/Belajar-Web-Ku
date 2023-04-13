@@ -1,0 +1,48 @@
+.container{
+    width: 500px;
+    height: 150px;
+    border: 5px solid black;
+    margin: 50px auto;
+    padding: 5px;
+    display: flex;
+    box-sizing: border-box;
+    /*flex-wrap: wrap;*/
+    /*flex-direction: row*/
+    /*justify-content: space-around;*/
+    align-items:flex-start;
+    
+    
+}
+
+.container div{
+    
+    background-color: gold;
+    margin: 5px;
+    text-align: center;
+    flex: 1;
+    
+}
+.container div.satu { 
+    order: 1;
+    flex: 1;
+    align-self:flex-start;
+    height: 50px;
+    
+}
+.container div.dua { 
+    order:  2;
+    flex: 2; 
+    align-self: center;
+} 
+.container div.tiga {
+    order: 3; 
+    flex: 1;
+    height: 50px;
+    align-self: flex-end;
+}
+.container div.empat {
+    flex: 4;
+    order: 4;
+    height: 12; 
+    align-self: stretch;
+}
