@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gray ;
+    line-height: 1.90;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-bottom: 1200px;
+}
+.container{
+    width: 800px;
+    margin: 40px auto;
+    background-color: beige;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    border: 5px solid black;
+    
+}
+.utama{
+    flex: 3;
+    order: 2;
+    margin: 15px;
+    margin-top: -10px;
+    box-sizing: border-box;
+}
+.sidebar1{
+    flex: 1;
+    order: 1;
+}
+.sidebar2{
+    flex: 1;
+    order: 3;
+    
+}.container2{
+    width: 800px;
+    margin: 40px auto;
+    
+}
+.layanan{
+    padding: 25px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    margin-bottom: 30px;
+}
+.layanan.satu{
+    background-color: blueviolet;
+}
+.layanan.dua{
+    background-color: gold;
+
+}
+.layanan.tiga{
+    background-color: cyan;
+}
+
+/* responsif */
+@media(min-width: 790px ){
+    .container2{
+    display: flex;
+    justify-content:space-between;
+    width: 800px;
+    }
+    .layanan{
+        width: 30%;
+        padding: 25px;
+    }
+}
