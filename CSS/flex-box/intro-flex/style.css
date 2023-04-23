@@ -6,7 +6,7 @@
     padding: 5px;
     display: flex;
     box-sizing: border-box;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     /*flex-direction: row*/
     /*justify-content: space-around;*/
     align-items:flex-start;
@@ -19,6 +19,7 @@
     margin: 5px;
     text-align: center;
     flex: 1;
+    
     
 }
 .container div.satu { 
