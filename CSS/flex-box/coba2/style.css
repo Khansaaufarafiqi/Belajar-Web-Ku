@@ -1,46 +1,156 @@
 body{
-    background-color: gray;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1000px;
 }
-.container{
-    width: 800px;
-    height: 150px;
-    padding: 5px;
-    border: 5px solid black;
-    margin: 40px auto;
+.container1{
+    max-width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px auto;
+    line-height: 30px;
+    padding: 20px;
+    background-color: rgba(255, 215, 0,0.6);
     display: flex;
+    padding: 20px;
     box-sizing: border-box;
-    flex-direction: row;
-    /* flex-wrap:wrap;  */
-    /* justify-content:space-evenly ; */
-    align-items: stretch;  
-    /* align-content:flex-start; */
-}
-.container div{
-    background-color: cyan;
-    margin: 5px;
-    color: black;
-    text-transform:capitalize;
-    font-weight:bold;
-    text-align: center;
-    flex-grow: 1;
-}
-div.satu{
-    order: 4;
-    flex-grow: 1;
-    align-self: flex-end;
+    border: 5px solid black;
+    border-radius: 50px; 
     
 }
-div.dua{
-    order: 3;
-    flex-grow: 2;
-    align-self: center;
+.sidebar1 ul li a{
+    text-decoration: none;
+    color: green;
 }
-div.tiga{
+.sidebar1 ul li a:hover{
+    color: white;
+}
+.sidebar1 ul li{
+    margin-left: -20px;
+}
+.conten{
+    flex: 4;
     order: 2;
-    flex-grow: 3;
-    align-self: flex-start;
+    padding-right: 25px;
 }
-div.empat{
+.sidebar1{
+    flex: 1;
     order: 1;
-    flex-grow: 4;
+}
+.sidebar2{
+    flex: 2;
+    order: 3;
+}
+.container2{
+    max-width: 800px;
+    display: flex;
+    margin: 50px auto;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: space-around;
+}
+.movi.satu{
+    background-color: green;
+}
+.movi.dua{
+    background-color: green;
+}
+.movi.tiga{
+    background-color: green;
+}
+.movi{
+    display: flex;
+    width: 150px;
+    height: 80px;
+    border-radius: 30px;
+    box-sizing: border-box;border: 3px solid black;
+    padding: 10px;
+}
+.movi span{
+    margin: auto;
+}
+.movi a{
+    color: black;
+    text-decoration: none;
+}
+.movi:hover{
+    background-color: white;
+    transition: all 1.2s ;
+}
+.container3{
+    max-width: 800px;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+    box-sizing: border-box;
+}
+.gambar{
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    border-radius: 30px;
+}
+.gambar.satu{
+    background-image: url(../../../picture/gambar11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gambar.dua{
+    background-image: url(../../../picture/gambar22.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gambar.tiga{
+    background-image: url(../../../picture/demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc-8ff2ac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@keyframes modul{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@media( max-width:600px ){
+    .container1{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .conten, .sidebar1, .sidebar2{
+        padding-bottom: 50px;
+    }
+    .container2{
+        flex-direction: column;
+        margin-left: 30%;
+    }.container3{
+        flex-direction: column;
+        margin-left: 30%;
+        
+    }
+    .gambar.satu{
+        margin-bottom: 40%;
+        
+    }
+    .gambar.dua{
+        margin-bottom: 40%;
+    }
+    .gambar.tiga{
+        margin-bottom: 40%;
+    }
+    .movi.satu{
+        position: absolute;
+        top: 175%;
+    }
+    .movi.dua{
+        position: absolute;
+        top: 210%;
+    }
+    .movi.tiga{
+        position: absolute;
+        bottom: -155%    ;
+    }
 }
