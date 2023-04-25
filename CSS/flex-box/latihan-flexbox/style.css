@@ -56,7 +56,7 @@ body{
 }
 
 /* responsif */
-@media(min-width: 600px ){
+@media(max-width: 600px ){
     .container2{
     display: flex;
     justify-content:space-between;
@@ -75,8 +75,9 @@ body{
         flex-wrap: wrap;
     } 
     .container4{
-
-    }
+        display: flex;
+        flex-direction: column;
+    }    
 }
 .container3{
     width: 800px;
@@ -95,7 +96,6 @@ body{
     width: 800px;
     margin: 50px auto;
     display: flex;
-    
 }
 .card{
     border: 5px solid black;
