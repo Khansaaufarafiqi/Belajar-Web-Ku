@@ -4,6 +4,12 @@ body{
     padding: 0;
     padding-bottom: 1000px;
 }
+h3{
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.568);
+    text-transform: capitalize;
+}
 .container1{
     max-width: 800px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -122,19 +128,23 @@ h2{
 }
 .image img{
     width: 100%;
+    height: 90%;
     box-sizing: border-box;
     border-radius: 30px;
 }
 .image{
     width: 25%;
-    padding-right: 10px;
-    box-sizing: border-box;    
+    padding-right: 30px;
+    box-sizing: border-box;
+  
 }
 .container5{
     width: 800px;
     margin: auto;   
     box-sizing: border-box;
     display: flex;
+    padding: 50px;
+    
 }
 .card{
     border: 3px solid black;
@@ -173,16 +183,18 @@ button:hover{
     background-image: url(../../../picture/zzzza.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: -80px 0px;
 }
 .card.big.tanjirooo{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(/picture/Kamado\ Tanjirou\ Wallpaper.jpg);
+    background-position: -60px 0px;
 }
 .card.inosuke{
     background-image: url(/picture/nono.jpg);
     background-size: cover;
-    background-position: -670px 0px;
+    background-position: -795px 0px;
     
 }
 .container6{
@@ -202,6 +214,17 @@ button:hover{
 }
 span{
     margin: auto;
+}
+.container5 .atasan{
+    padding-top: 15px;
+    font-weight: 900;
+    font-family: tahoma;
+    padding-left: 30px;
+    
+}
+h2:hover{
+    color: white;
+    cursor: pointer;
 }
 
 
