@@ -1,369 +1,315 @@
-body{
-    background-color: grey;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 1000px;
+body {
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1000px;
 }
-h3{
-    margin: 0;
-    padding: 0;
-    color: rgba(255, 255, 255, 0.568);
-    text-transform: capitalize;
+h3 {
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.568);
+  text-transform: capitalize;
 }
-.container1{
-    max-width: 800px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 20px auto;
-    line-height: 30px;
-    padding: 20px;
-    background-color: rgba(255, 215, 0,0.6);
-    display: flex;
-    padding: 20px;
-    box-sizing: border-box;
-    border: 5px solid black;
-    border-radius: 50px; 
-    
+.container1 {
+  max-width: 800px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px auto;
+  line-height: 30px;
+  padding: 20px;
+  background-color: rgba(255, 215, 0, 0.6);
+  display: flex;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 5px solid black;
+  border-radius: 50px;
 }
-.sidebar1 ul li a{
-    text-decoration: none;
-    color: green;
+.sidebar1 ul li a {
+  text-decoration: none;
+  color: green;
 }
-.sidebar1 ul li a:hover{
-    color: white;
+.sidebar1 ul li a:hover {
+  color: white;
 }
-.sidebar1 ul li{
-    margin-left: -20px;
+.sidebar1 ul li {
+  margin-left: -20px;
 }
-.conten{
-    flex: 4;
-    order: 2;
-    padding-right: 25px;
+.conten {
+  flex: 4;
+  order: 2;
+  padding-right: 25px;
 }
-.sidebar1{
-    flex: 1;
-    order: 1;
+.sidebar1 {
+  flex: 1;
+  order: 1;
 }
-.sidebar2{
-    flex: 2;
-    order: 3;
+.sidebar2 {
+  flex: 2;
+  order: 3;
 }
-.container2{
-    max-width: 800px;
-    display: flex;
-    margin: 50px auto;
-    box-sizing: border-box;
-    text-align: center;
-    justify-content: space-around;
+.container2 {
+  max-width: 800px;
+  display: flex;
+  margin: 50px auto;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: space-around;
 }
-.movi.satu{
-    background-color: green;
-    
+.movi.satu {
+  background-color: green;
 }
-.movi.dua{
-    background-color: green;
+.movi.dua {
+  background-color: green;
 }
-.movi.tiga{
-    background-color: green;
+.movi.tiga {
+  background-color: green;
 }
-.movi{
-    display: flex;
-    width: 150px;
-    height: 80px;
-    border-radius: 30px;
-    box-sizing: border-box;border: 3px solid black;
-    padding: 10px;
-    cursor: pointer;
+.movi {
+  display: flex;
+  width: 150px;
+  height: 80px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  border: 3px solid black;
+  padding: 10px;
+  cursor: pointer;
 }
-.movi span{
-    margin: auto;
+.movi span {
+  margin: auto;
 }
-.movi a{
-    color: black;
-    text-decoration: none;
+.movi a {
+  color: black;
+  text-decoration: none;
 }
-.movi:hover{
-    background-color: white;
-    transition: all 1.2s ;
+.movi:hover {
+  background-color: white;
+  transition: all 1.2s;
 }
-.container3{
-    max-width: 800px;
-    display: flex;
-    justify-content: space-around;
-    margin: 40px auto;
-    box-sizing: border-box;
+.container3 {
+  max-width: 800px;
+  display: flex;
+  justify-content: space-around;
+  margin: 40px auto;
+  box-sizing: border-box;
 }
-.gambar{
-    width: 150px;
-    height: 200px;
-    background-color: white;
-    border-radius: 30px;
+.gambar {
+  width: 150px;
+  height: 200px;
+  background-color: white;
+  border-radius: 30px;
 }
-.gambar.satu{
-    background-image: url(../../../picture/gambar11.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.gambar.satu {
+  background-image: url(../../../picture/gambar11.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.gambar.dua{
-    background-image: url(../../../picture/gambar22.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.gambar.dua {
+  background-image: url(../../../picture/gambar22.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.gambar.tiga{
-    background-image: url(../../../picture/demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc-8ff2ac.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.gambar.tiga {
+  background-image: url(../../../picture/demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc-8ff2ac.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.container4{
-    max-width: 800px;
-    display: flex;
-    margin: 50px auto;
-    flex-wrap: wrap;
-    justify-content: center;
-    box-sizing: border-box;
-
+.container4 {
+  max-width: 800px;
+  display: flex;
+  margin: 50px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
 }
-h2{
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h2 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.image img{
-    width: 100%;
-    height: 90%;
-    box-sizing: border-box;
-    border-radius: 30px;
+.image img {
+  width: 100%;
+  height: 90%;
+  box-sizing: border-box;
+  border-radius: 30px;
 }
-.image{
-    width: 25%;
-    padding-right: 30px;
-    box-sizing: border-box;
-  
+.image {
+  width: 25%;
+  padding-right: 30px;
+  box-sizing: border-box;
 }
-.container5{
-    width: 800px;
-    margin: auto;   
-    box-sizing: border-box;
-    display: flex;
-    padding: 50px;
-    
+.container5 {
+  width: 800px;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  padding: 50px;
 }
-.card{
-    border: 3px solid black;
-    border-radius: 30px;
-    text-align: center;
-    overflow: hidden;
-    margin: 10px;
+.card {
+  border: 3px solid black;
+  border-radius: 30px;
+  text-align: center;
+  overflow: hidden;
+  margin: 10px;
 }
-.card .atasan{
-    height: 120px;
-    
+.card .atasan {
+  height: 120px;
 }
-.card .isian{
-    margin: 10px;
-    padding-bottom: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+.card .isian {
+  margin: 10px;
+  padding-bottom: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-button{
-    width: 100px;
-    height: 50px;
-    border-radius: 20px;
-    cursor:pointer;
-    border: 5px solid black;
-    
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 5px solid black;
 }
-button:hover{
-    background-color: rgb(230, 226, 38);
-    transition: all 3ms;
+button:hover {
+  background-color: rgb(230, 226, 38);
+  transition: all 3ms;
 }
-.card.big{
-    transform: scale(1.1);
-    
+.card.big {
+  transform: scale(1.1);
 }
-.card.zenit{
-    background-image: url(../../../picture/zzzza.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: -80px 0px;
+.card.zenit {
+  background-image: url(../../../picture/zzzza.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -80px 0px;
 }
-.card.big.tanjirooo{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(/picture/Kamado\ Tanjirou\ Wallpaper.jpg);
-    background-position: -60px 0px;
+.card.big.tanjirooo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/picture/Kamado\ Tanjirou\ Wallpaper.jpg);
+  background-position: -60px 0px;
 }
-.card.inosuke{
-    background-image: url(/picture/nono.jpg);
-    background-size: cover;
-    background-position: -795px 0px;
-    
+.card.inosuke {
+  background-image: url(/picture/nono.jpg);
+  background-size: cover;
+  background-position: -795px 0px;
 }
-.container6{
-    width: 500px;
-    height: 500px;
-    border: 4px solid black;
-    margin: 40px auto;
-    display: flex;
+.container6 {
+  width: 500px;
+  height: 500px;
+  border: 4px solid black;
+  margin: 40px auto;
+  display: flex;
 }
-.kotakk{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    text-align: center;
-    margin: auto;
-    display: flex;
+.kotakk {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  text-align: center;
+  margin: auto;
+  display: flex;
 }
-span{
-    margin: auto;
+span {
+  margin: auto;
 }
-.container5 .atasan{
-    padding-top: 15px;
-    font-weight: 900;
-    font-family: tahoma;
-    padding-left: 30px;
-    
+.container5 .atasan {
+  padding-top: 15px;
+  font-weight: 900;
+  font-family: tahoma;
+  padding-left: 30px;
 }
-h2:hover{
-    color: white;
-    cursor: pointer;
+h2:hover {
+  color: white;
+  cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@keyframes modul{
-    0%{
-        transform: scale(0);
-        opacity: 0;
-    }
-    100%{
-        transform: scale(1);
-        opacity: 1;
-    }
+@keyframes modul {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
-@media( max-width:600px ){
-    .container1{
-        flex-direction: column;
-        padding: 30px;
-    }
-    .conten, .sidebar1, .sidebar2{
-        padding-bottom: 50px;
-    }
-    .container2{
-        flex-direction: column;
-        margin-left: 30%;
-    }.container3{
-        flex-direction: column;
-        margin-left: 30%;
-        
-    }
-    .gambar.satu{
-        margin-bottom: 40%;
-        
-    }
-    .gambar.dua{
-        margin-bottom: 40%;
-    }
-    .gambar.tiga{
-        margin-bottom: 40%;
-    }
-    .movi.satu{
-        position: absolute;
-        top: 100%;
-    }
-    .movi.dua{
-        position: absolute;
-        top: 120%;
-    }
-    .movi.tiga{
-        position: absolute;
-        bottom: -50%    ;
-    }
-    .image img{
-        margin: 10px auto;
-        
-    }
-    .image{
-        width: 50%;
-    }
+@media (max-width: 600px) {
+  .container1 {
+    flex-direction: column;
+    padding: 30px;
+  }
+  .conten,
+  .sidebar1,
+  .sidebar2 {
+    padding-bottom: 50px;
+  }
+  .container2 {
+    flex-direction: column;
+    margin-left: 30%;
+  }
+  .container3 {
+    flex-direction: column;
+    margin-left: 30%;
+  }
+  .gambar.satu {
+    margin-bottom: 40%;
+  }
+  .gambar.dua {
+    margin-bottom: 40%;
+  }
+  .gambar.tiga {
+    margin-bottom: 40%;
+  }
+  .movi.satu {
+    position: absolute;
+    top: 100%;
+  }
+  .movi.dua {
+    position: absolute;
+    top: 120%;
+  }
+  .movi.tiga {
+    position: absolute;
+    bottom: -50%;
+  }
+  .image img {
+    margin: 10px auto;
+  }
+  .image {
+    width: 50%;
+  }
 }
-@media(max-width:300px  ){
-    .container1{
-        flex-direction: column;
-        padding: 30px;
-    }
-    .conten, .sidebar1, .sidebar2{
-        padding-bottom: 50px;
-    }
-    .container2{
-        flex-direction: column;
-        margin-left: 30%;
-    }.container3{
-        flex-direction: column;
-        margin-left: 30%;
-        
-    }
-    .gambar.satu{
-        margin-bottom: 40%;
-        
-    }
-    .gambar.dua{
-        margin-bottom: 40%;
-    }
-    .gambar.tiga{
-        margin-bottom: 40%;
-    }
-    .movi.satu{
-        position: absolute;
-        top: 175%;
-    }
-    .movi.dua{
-        position: absolute;
-        top: 210%;
-    }
-    .movi.tiga{
-        position: absolute;
-        bottom: -155%    ;
-    }
-
+@media (max-width: 300px) {
+  .container1 {
+    flex-direction: column;
+    padding: 30px;
+  }
+  .conten,
+  .sidebar1,
+  .sidebar2 {
+    padding-bottom: 50px;
+  }
+  .container2 {
+    flex-direction: column;
+    margin-left: 30%;
+  }
+  .container3 {
+    flex-direction: column;
+    margin-left: 30%;
+  }
+  .gambar.satu {
+    margin-bottom: 40%;
+  }
+  .gambar.dua {
+    margin-bottom: 40%;
+  }
+  .gambar.tiga {
+    margin-bottom: 40%;
+  }
+  .movi.satu {
+    position: absolute;
+    top: 175%;
+  }
+  .movi.dua {
+    position: absolute;
+    top: 210%;
+  }
+  .movi.tiga {
+    position: absolute;
+    bottom: -155%;
+  }
 }

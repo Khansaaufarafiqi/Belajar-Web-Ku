@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Indie Flower', cursive;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    background-color:rgb(48, 165, 165) ;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    overflow-x: hidden;
+}
+ul li a{
+    text-decoration: none;
+    color:rgba(177, 243, 243, 0.973);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.8em;
+}
+ul li{
+    list-style: none;
+}
+.judul h2 {
+    color:rgba(177, 243, 243, 0.973);
+    font-size: 35px;
+    letter-spacing: 4px;
+}
+
+ul li a:hover{
+    color: rgba(230, 245, 245, 0.973);
+}
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    height: 25px;
+    justify-content: space-between;
+    position: relative;
+}
+.menu-toggle input{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+.menu-toggle span{
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+.menu-toggle span:nth-child(2){
+    transform-origin: 0 0;
+}
+.menu-toggle span:nth-child(4){
+    transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2){
+    transform: rotate(47deg); 
+   
+}
+.menu-toggle input:checked ~ span:nth-child(4){
+    transform: rotate(-47deg); 
+   
+}
+.menu-toggle input:checked ~ span:nth-child(3){
+    transform: scale(0); 
+   
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    nav ul {
+        width: 50%;
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width: 600px){
+    .menu-toggle{
+        display: flex;
+    }
+    nav ul {
+        right: 0;
+        top: 0;
+        width: 60%;
+        height: 100vh;
+        position: absolute;
+        flex-direction: column;
+        background-color: rgb(48, 165, 165);
+        text-align: center;
+        justify-content: space-evenly;
+        z-index: -99;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+    }
+
+    nav ul.slide{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

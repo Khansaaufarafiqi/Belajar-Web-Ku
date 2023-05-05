@@ -1,0 +1,292 @@
+body {
+  height: 2000px;
+}
+@font-face {
+  font-family: "fspro";
+  src: url(/HTML/zzzlatihanHTMLdasar9/web/font/SFPRODISPLAYREGULAR.OTF);
+}
+@font-face {
+  font-family: "fpro";
+  src: url(font/SF-Pro-Display-LightItalic.ttf);
+}
+.container {
+  background-image: url(ImageBackground.png);
+  width: 1280px;
+  height: 720px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.icon {
+  background-color: rgba(42, 38, 61, 0.82);
+  position: absolute;
+  z-index: 99;
+  height: 720px;
+  width: 1280px;
+  right: 0;
+  left: 0;
+}
+.icon .bali {
+  padding-top: 44px;
+}
+.judul {
+  left: 476px;
+  right: 476px;
+  top: 223px;
+  position: absolute;
+  font-family: "Pacifico", cursive;
+  font-size: 48px;
+  z-index: 999;
+}
+.judul .text {
+  padding-bottom: 20px;
+}
+.text.awal {
+  color: #ffffff;
+}
+.text.akhir {
+  color: #fcb371;
+}
+.promo {
+  position: absolute;
+  left: 578px;
+  top: 405px;
+  z-index: 9999;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+.container2 {
+  display: flex;
+  position: absolute;
+  left: 477px;
+  top: 481px;
+}
+.line.satu {
+  width: 156px;
+  height: 46px;
+  border: 3px solid #fcb371;
+  border-radius: 6px;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: "Pacifico", cursive;
+}
+.line.satu:hover {
+  background-color: #fcb371;
+  width: 156px;
+  height: 46px;
+  border: 3px solid #fcb371;
+  border-radius: 6px;
+  z-index: 9999;
+  display: flex;
+  font-family: "Pacifico", cursive;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-weight: 400;
+  cursor: pointer;
+}
+.line.dua {
+  width: 156px;
+  height: 46px;
+  border: 3px solid #fcb371;
+  border-radius: 6px;
+  z-index: 9999;
+  color: #fcb371;
+  font-family: "Pacifico", cursive;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  font-weight: 400;
+}
+.line.dua:hover {
+  background-color: #fcb371;
+  width: 156px;
+  height: 46px;
+  border: 3px solid #fcb371;
+  border-radius: 6px;
+  z-index: 9999;
+  display: flex;
+  font-family: "Pacifico", cursive;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-weight: 400;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #fcb371;
+  width: 156px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: "Pacifico", cursive;
+}
+.line.satu a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.line.dua a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.container3 {
+  background-image: url(balibg.png);
+  width: 1280px;
+  height: 720px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.overlay {
+  background-color: rgba(42, 38, 61, 0.82);
+  position: absolute;
+  z-index: 99;
+  width: 1280px;
+  height: 720px;
+}
+.back {
+  display: flex;
+  flex-direction: column;
+  height: 23px;
+  justify-content: space-between;
+  top: 80px;
+  position: absolute;
+  left: 56px;
+}
+.back span:nth-child(1) {
+  transform-origin: 0 100;
+  transform: rotate(-48deg);
+  position: relative;
+}
+.back span:nth-child(2) {
+  right: -3px;
+  width: 29px;
+  position: relative;
+}
+.back span:nth-child(3) {
+  position: relative;
+  transform: rotate(48deg);
+}
+.back span {
+  display: block;
+  width: 26px;
+  height: 5px;
+  background-color: #fcb371;
+  border-radius: 10px;
+}
+.overlay .about {
+  z-index: 9999;
+  text-align: center;
+  position: relative;
+  top: 171px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Pacifico", cursive;
+  color: #fcb371;
+  font-size: 48px;
+}
+.conten p {
+  width: 768px;
+  z-index: 9999;
+  position: absolute;
+  top: 301px;
+  text-align: center;
+  left: 256px;
+  font-weight: 400;
+  font-size: 28px;
+  font-family: "fpro";
+  color: #ffffff;
+}
+.container4 {
+  background-image: url(balibg2.png);
+  width: 1280px;
+  height: 720px;
+  position: absolute;
+  top: 210%;
+  left: 0px;
+  right: 0;
+}
+.reservation {
+  background-color: rgba(42, 38, 61, 0.82);
+  position: absolute;
+  z-index: 99;
+  width: 1280px;
+  height: 720px;
+}
+.container5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 720px;
+  flex-direction: column;
+}
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 382px;
+  padding-bottom: 16px;
+}
+.user.nomor {
+  position: relative;
+  right: 102px;
+  width: 177px;
+}
+.negara {
+  top: -77px;
+  position: relative;
+  width: 177px;
+  left: 113px;
+}
+.coment {
+  font-family: "fbox";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  top: -108px;
+  position: relative;
+  width: 382px;
+  height: 84px;
+}
+.submit button {
+  position: relative;
+  top: -70px;
+  width: 382px;
+  height: 53px;
+  background-color: #fcb371;
+  border: #fcb371;
+  font-family: "Pacifico", cursive;
+}
+.submit button:hover {
+  background-color: #fcb371;
+  font-family: "Pacifico", cursive;
+  border: #fcb371;
+}
+.judullog {
+  font-family: "Pacifico", cursive;
+  color: #fcb371;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  position: relative;
+  bottom: 67px;
+}
