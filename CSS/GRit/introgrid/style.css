@@ -1,0 +1,82 @@
+.border {
+  margin: 300px auto;
+  width: 500px;
+  height: 500px;
+  border: 3px solid black;
+}
+.header {
+  height: 130px;
+  background-color: red;
+  text-align: center;
+  line-height: 130px;
+  font-weight: 500;
+  font-size: 40px;
+  margin: 5px;
+  box-sizing: border-box;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.aside {
+  height: 120px;
+  width: 40%;
+  background-color: cyan;
+  float: left;
+  margin-left: 5px;
+  text-align: center;
+  line-height: 120px;
+  font-weight: 500;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: white;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav {
+  height: 180px;
+  background-color: purple;
+  width: 40%;
+  margin-left: 5px;
+  text-align: center;
+  line-height: 180px;
+  color: white;
+  font-weight: 500;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-top: 120px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main {
+  height: 300px;
+  width: 58%;
+  float: right;
+  background-color: orange;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 300px;
+  color: white;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 40px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer {
+  height: 60px;
+  background-color: gray;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 30px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.clear {
+  clear: both;
+}
