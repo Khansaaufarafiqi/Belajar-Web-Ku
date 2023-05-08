@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  margin: 70px;
+  padding: 0;
+  background-color: gray;
+  color: white;
+  text-transform: uppercase;
+}
+img {
+  width: 100%;
+  height: 200px;
+  display: block;
+}
+.gambar {
+  min-width: 80%;
+  list-style: none;
+  margin: 30px auto;
+  padding: 0;
+  border: 10px solid white;
+  box-shadow: 6px 3px 3px rgba(0, 0, 0, 0.3);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 5px;
+  box-sizing: border-box;
+}

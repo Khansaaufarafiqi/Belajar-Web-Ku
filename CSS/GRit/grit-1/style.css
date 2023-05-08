@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  color: #000000;
+  font-weight: bold;
+}
+.container {
+  width: 60%;
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr auto 2.5fr 100px;
+  grid-template-rows: repeat(2, 150px) repeat(3, 50px);
+}
+.item {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.item:nth-child(odd) {
+  background-color: cyan;
+}
