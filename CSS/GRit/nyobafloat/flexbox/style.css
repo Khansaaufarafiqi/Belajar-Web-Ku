@@ -1,0 +1,58 @@
+body {
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  padding: 0;
+  margin: 0;
+  height: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}
+.container {
+  margin: 300px auto;
+  border: 3px solid black;
+  width: 600px;
+  padding: 4px;
+  overflow: hidden;
+  display: grid;
+  grid-template-areas:    /* grid template area dibuat untuk menentukan baris objek*/
+    "header header"
+    "aside main"
+    "nav main"
+    "footer footer";
+  grid-template-columns: 1fr 1.5fr;
+  /*grid tamplate colum digunakan untuk memnentukan besaran objek colom yang telah dibua baris*/
+  grid-template-rows: 1fr 1fr 1.3fr 0.3fr;
+  /*grid tamplate rows digunakan untuk memnentukan besaran baris baris */
+}
+header {
+  grid-area: header;
+  background-color: purple;
+  padding: 40px;
+}
+aside {
+  grid-area: aside;
+  background-color: aqua;
+  padding: 50px;
+}
+main {
+  grid-area: main;
+  background-color: gold;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  grid-area: footer;
+  background-color: grey;
+  padding: 10px;
+}
+nav {
+  grid-area: nav;
+  background-color: orangered;
+  padding: 70px 0;
+}
