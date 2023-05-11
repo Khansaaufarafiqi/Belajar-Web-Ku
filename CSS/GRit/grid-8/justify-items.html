@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-rows: 170px 160px 150px;
+        grid-template-columns: 2fr 2fr 2fr;
+        gap: 5px;
+        /* justify-items: start; */
+        /* justify-items: end; */
+        /* justify-items: center; */
+        /* justify-items: stretch; */
+      }
+      .item {
+        border: 2px solid rgb(255, 74, 74);
+        height: 100px;
+        background-color: gray;
+        text-align: center;
+      }
+      .item.p1,
+      .item.p4,
+      .item.p7 {
+        width: 120px;
+      }
+      .item.p2,
+      .item.p5,
+      .item.p8 {
+        width: 90px;
+      }
+      .item.p3,
+      .item.p6,
+      .item.p9 {
+        width: 180px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item p1">1</div>
+      <div class="item p2">2</div>
+      <div class="item p3">3</div>
+      <div class="item p4">4</div>
+      <div class="item p5">5</div>
+      <div class="item p6">6</div>
+      <div class="item p7">7</div>
+      <div class="item p8">8</div>
+      <div class="item p9">9</div>
+    </div>
+  </body>
+</html>
