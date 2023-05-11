@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- (grid templet areas = grid area) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grit area & grit gab</title>
+    <!-- CSS -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 50%;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+          "header header header"
+          "conten conten sidebar"
+          "conten conten sidebar"
+          "footer footer footer";
+      }
+      .item {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px;
+        box-sizing: border-box;
+      }
+      /* .item:nth-child(odd) {
+        background-color: gold;
+      }
+      .item:nth-child(even) {
+        background-color: cyan;
+      } */
+      .header {
+        grid-area: header;
+        background-color: purple;
+      }
+      .sidebar {
+        grid-area: sidebar;
+        background-color: grey;
+      }
+      .conten {
+        grid-area: conten;
+        background-color: yellow;
+      }
+      .footer {
+        grid-area: footer;
+        background-color: black;
+        color: white;
+      }
+      .item.footer {
+        height: 10px;
+      }
+      /* responsif */
+      @media screen and (max-width: 576px) {
+        .container {
+          width: 80%;
+          grid-template-areas:
+            "header  header header"
+            "conten conten conten"
+            "sidebar sidebar sidebar"
+            "footer footer footer";
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item header">header</div>
+      <div class="item sidebar">sidebar</div>
+      <div class="item conten">conten</div>
+      <div class="item footer">footer</div>
+      <!-- <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div> -->
+    </div>
+  </body>
+</html>
