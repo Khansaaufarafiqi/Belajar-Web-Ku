@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  background-color: grey;
+  font-weight: 500;
+  line-height: 1.6;
+  min-height: 1000px;
+}
+.container {
+  margin: auto;
+  width: 80%;
+}
+.typography {
+  display: flex;
+}
+.typography .col {
+  flex: 1;
+  margin: 0 1em;
+  padding: 0 0.5em;
+}
+.col.em {
+  font-size: 20px;
+}
+.col.em p {
+  font-size: 2em;
+}
+.tekan a {
+  text-decoration: none;
+  background-color: purple;
+  color: white;
+  /* padding: 10px; */
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.5em 2em;
+}
