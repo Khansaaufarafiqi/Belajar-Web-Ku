@@ -36,3 +36,17 @@ body {
   font-weight: 700;
   padding: 0.5em 2em;
 }
+.tekan2 a {
+  background-color: green;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1em 2em;
+  margin: 1em auto;
+  border: 3px solid black;
+}
+.tekan2 h2 {
+  font-size: 2em;
+  margin: 1em auto;
+}
