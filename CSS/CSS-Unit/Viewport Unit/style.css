@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5em;
+  background-color: grey;
+}
+header {
+  background-image: url(img/tesss.jpg);
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+h1 {
+  /* font-size: 4rem; */
+  font-size: 4vmax;
+  line-height: 1.5em;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin: auto;
+}
+section {
+  text-align: center;
+}
